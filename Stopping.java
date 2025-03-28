@@ -12,8 +12,7 @@ public class Stopping{
 				}
 			}
 		
-//		System.out.println("Running " + numsims + " simulations in a sample size of " + samplesize + ", stopping at " + i + " percent yields success rate: " + (successes/numsims)*100 + "%");
-		System.out.println((successes/numsims)*100);
+		System.out.println("Running " + numsims + " simulations in a sample size of " + samplesize + ", stopping at " + i + " percent yields success rate: " + (successes/numsims)*100 + "%\n");
 		}
 		
 		
