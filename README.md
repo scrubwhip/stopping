@@ -12,8 +12,8 @@ As it turns out, the optimal stopping point is roughly 37% (1/e to be exact) and
 
 An example of the data output from the simulation is shown below, with the x-axis representing the percent of applicants surveyed, and the y axis representing the success rate. 
 
-<img src="graph.png">
+<img src="Images/graph.png">
 
 And this is what the simulation will look like when run in a shell:
 
-<img src="code.png">
+<img src="Images/code.png">
