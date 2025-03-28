@@ -1,6 +1,6 @@
 # When to Stop?
 
-One of my favorite problems in math is the secretary problem. Essentially, you are tasked with interviewing 100 secretaries and after each secretary leaves, you must offer them the job or deny them the job, on the spot. The natural approach is to interview a sample of them at the beginning to "test the playing field", then find the next best person after that. This is often called a look-then-leap algorithm. The question is, however, how many people you should interview as part of that initial surveying phase. 
+Represented in this repository is one of my favorite math problems: the secretary problem. Essentially, you are tasked with interviewing 100 secretaries and after each secretary leaves, you must offer them the job or deny them the job, on the spot. The natural approach is to interview a sample of them at the beginning to "test the playing field", then find the next best person after that. This is often called a look-then-leap algorithm. The question is, however, how many people you should interview as part of that initial surveying phase. 
 
 If you decide to get a feel for the applicant pool using just the first person (and then hire the next best person after them), chances are you'll hire a subpar applicant and miss the opportunity to find the best. In fact, unless that first person happened to be the second-best applicant, you will fail at finding the best applicant. You are choosing someone when you have barely any information on how they compare to the rest of the applicants. 
 
@@ -12,4 +12,8 @@ As it turns out, the optimal stopping point is roughly 37% (1/e to be exact) and
 
 An example of the data output from the simulation is shown below, with the x-axis representing the percent of applicants surveyed, and the y axis representing the success rate. 
 
-<img src="">
+<img src="graph.png">
+
+And this is what the simulation will look like when run in a shell:
+
+<img src="code.png">
