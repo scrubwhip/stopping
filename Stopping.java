@@ -1,8 +1,13 @@
+import java.util.*;
+
+
 public class Stopping{
 	public static void main(String[] args){
-		int percent = 0;
-		int samplesize = 100;
-		int numsims = 10000;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter sample size: ");
+		int samplesize = scan.nextInt();
+		System.out.println("Enter number of simulations: ");
+		int numsims = scan.nextInt();
 		for(int i = 0; i<samplesize; i++){
 			double successes = 0;
 			for(int j = 0; j<numsims; j++){
